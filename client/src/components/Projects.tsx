@@ -13,7 +13,8 @@ const allProjects = [
     image: "https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?auto=format&fit=crop&q=80&w=800",
     description: "Built a complete movie data management system with modular scripts for CRUD operations and analytics.",
     tech: ["Python", "MongoDB", "Pandas"],
-    longDesc: "This project involves a robust backend system for managing movie databases. It features automated CSV report generation using Pandas, aggregation pipelines for insights (e.g., year with most movies), and modular architecture for scalability."
+    longDesc: "This project involves a robust backend system for managing movie databases. It features automated CSV report generation using Pandas, aggregation pipelines for insights (e.g., year with most movies), and modular architecture for scalability.",
+    github: "https://github.com/krystn1/movie-data-management-system"
   },
   {
     id: 2,
@@ -22,7 +23,9 @@ const allProjects = [
     image: "https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&q=80&w=800",
     description: "Web application that detects human emotion from uploaded images or live camera capture using AI models.",
     tech: ["Python", "AI Models", "Web Deployment"],
-    longDesc: "A full-stack AI application capable of real-time emotion analysis. It integrates a database to store past captures, features a user dashboard for history viewing, and is deployed on Render for easy access."
+    longDesc: "A full-stack AI application capable of real-time emotion analysis. It integrates a database to store past captures, features a user dashboard for history viewing, and is deployed on Render for easy access.",
+    github: "https://github.com/krystn1/emotion-detection-app",
+    live: "https://lnkd.in/dWQvhJaW"
   },
   {
     id: 3,
@@ -31,7 +34,9 @@ const allProjects = [
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
     description: "Question-answering tool that connects to a Large Language Model (LLM) API with both CLI and Web interfaces.",
     tech: ["LLM API", "Python", "CLI/Web"],
-    longDesc: "This tool bridges the gap between users and complex LLMs. It offers a dual-interface approach (Command Line for power users, Web UI for general users) to query and receive intelligent responses from an underlying AI model."
+    longDesc: "This tool bridges the gap between users and complex LLMs. It offers a dual-interface approach (Command Line for power users, Web UI for general users) to query and receive intelligent responses from an underlying AI model.",
+    github: "https://github.com/krystn1/LLM_QA_Project_Ogbonna_23CG0343108",
+    live: "https://llm-qa-project-ogbonna.onrender.com"
   },
   {
     id: 4,
@@ -49,7 +54,8 @@ const allProjects = [
     image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=800",
     description: "Developed a simple e-commerce app for Nike shoes using Flutter demonstrating UI widgets and state.",
     tech: ["Flutter", "Dart", "Mobile"],
-    longDesc: "A cross-platform mobile application showcasing modern UI/UX principles. It includes product listings, details pages, and basic cart functionality, built with Flutter's widget system."
+    longDesc: "A cross-platform mobile application showcasing modern UI/UX principles. It includes product listings, details pages, and basic cart functionality, built with Flutter's widget system.",
+    github: "https://github.com/krystn1/Nike_eCommerce_app"
   },
   {
     id: 6,
