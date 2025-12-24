@@ -42,7 +42,7 @@ const allProjects = [
     id: 4,
     title: "Covid-19 Analysis",
     category: "Data",
-    image: "https://images.unsplash.com/photo-1584036561566-b937500d785e?auto=format&fit=crop&q=80&w=800",
+     image: "https://unsplash.com/photos/j2c7yf223Mk?auto=format&fit=crop&w=800&q=80",
     description: "Cleaned and analyzed a Covid-19 dataset and visualized relationships between countries and deaths.",
     tech: ["Python", "Matplotlib", "Pandas"],
     longDesc: "A data science project focused on cleaning real-world dirty data and extracting meaningful insights. Visualizations were created to show the correlation between different demographic factors and mortality rates."
@@ -184,10 +184,16 @@ export default function Projects() {
               ))}
             </div>
             <div className="flex gap-4">
-              <Button className="bg-primary hover:bg-primary/90 flex-1">
+              <Button className="bg-primary hover:bg-primary/90 flex-1"
+                onClick={() => window.open(selectedProject?.live, "_blank")}
+                disabled={!selectedProject?.live} // disables if no live link
+                >
                 View Live <ExternalLink className="ml-2 h-4 w-4" />
               </Button>
-              <Button variant="outline" className="flex-1">
+              <Button variant="outline" className="flex-1"
+                onClick={() => window.open(selectedProject?.github, "_blank")}
+                disabled={!selectedProject?.github} // disables if no GitHub link
+                >
                 Source Code <Github className="ml-2 h-4 w-4" />
               </Button>
             </div>

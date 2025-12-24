@@ -110,7 +110,14 @@ export default function Contact() {
               <p className="opacity-90 leading-relaxed mb-6">
                 I am currently looking for internship opportunities and collaborative projects in AI, ML, and Data Science.
               </p>
-              <Button variant="secondary" className="w-full bg-white text-primary hover:bg-white/90">
+              <Button variant="secondary" className="w-full bg-white text-primary hover:bg-white/90"
+                onClick={() => {
+                  const link = document.createElement("a");
+                  link.href = "/Jessica_Ogbonna_CV.pdf"; // path in public folder
+                  link.download = "Jessica_Ogbonna_CV.pdf"; // filename when downloaded
+                  link.click();
+                }}
+                >
                 Download CV
               </Button>
             </div>
