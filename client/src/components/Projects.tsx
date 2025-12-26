@@ -65,6 +65,16 @@ const allProjects = [
     description: "Interactive Excel dashboards to track and visualize restaurant order trends.",
     tech: ["Excel", "Data Viz", "Analytics"],
     longDesc: "An advanced Excel project utilizing pivot tables, slicers, and dynamic charts to create a business intelligence dashboard for restaurant management to track sales and order trends."
+  },
+  {
+    id: 7,
+    title: "CampusFlow AI",
+    category: "AI",
+    image: "https://images.unsplash.com/photo-1555448248-71d2a0b26dd2?auto=format&fit=crop&q=80&w=800",
+    description: "AI-powered automation system that extracts assignment details and deadlines from PDFs/images using OCR and NLP, with scheduled email reminders.",
+    tech: ["GCP", "OCR/NLP", "Python", "Automation", "Email API"],
+    longDesc: "CampusFlow AI is an intelligent task management solution that automatically extracts assignment details and deadlines from uploaded PDFs, images, and screenshots using advanced OCR and NLP techniques. The system processes this data into structured JSON format, enabling automated task creation and tracking. Leveraging scheduled background jobs (cron), it sends timely email reminders for upcoming deadlines. Designed with cloud-ready architecture, it integrates Google Cloud services for scalable automation and future expansion.",
+    github: "https://github.com/krystn1/campusflow-ai"
   }
 ];
 
