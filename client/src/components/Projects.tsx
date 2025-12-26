@@ -135,11 +135,11 @@ export default function Projects() {
               key={project.id}
               className="group relative bg-card rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-border"
             >
-              <div className="relative aspect-[4/3] overflow-hidden">
+              <div className={`relative ${project.id === 7 ? 'aspect-[4/3] w-full h-full' : 'aspect-[4/3]'} overflow-hidden`}>
                 <img 
                   src={project.image} 
                   alt={project.title} 
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className={`transition-transform duration-500 group-hover:scale-110 ${project.id === 7 ? 'w-full h-full object-contain bg-gray-100' : 'w-full h-full object-cover'}`}
                 />
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
                    <Button 
