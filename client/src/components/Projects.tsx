@@ -75,7 +75,8 @@ const allProjects = [
     description: "AI-powered automation system that extracts assignment details and deadlines from PDFs/images using OCR and NLP, with scheduled email reminders.",
     tech: ["GCP", "OCR/NLP", "Python", "Automation", "Email API"],
     longDesc: "CampusFlow AI is an intelligent task management solution that automatically extracts assignment details and deadlines from uploaded PDFs, images, and screenshots using advanced OCR and NLP techniques. The system processes this data into structured JSON format, enabling automated task creation and tracking. Leveraging scheduled background jobs (cron), it sends timely email reminders for upcoming deadlines. Designed with cloud-ready architecture, it integrates Google Cloud services for scalable automation and future expansion.",
-    github: "https://github.com/krystn1/campusflow-ai"
+    github: "https://github.com/krystn1/campusflow-ai",
+    live: "https://campusflow-ai-06.lovable.app/"
   }
 ];
 
@@ -179,6 +180,7 @@ export default function Projects() {
         <DialogContent className="max-w-2xl">
           <DialogHeader>
             <DialogTitle className="text-2xl font-bold font-heading">{selectedProject?.title}</DialogTitle>
+            <DialogDescription className="sr-only">{selectedProject?.title} project details</DialogDescription>
           </DialogHeader>
           <div className="mt-4">
             <div className="aspect-video w-full rounded-lg overflow-hidden mb-6">
