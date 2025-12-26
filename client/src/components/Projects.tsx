@@ -71,10 +71,10 @@ const allProjects = [
     id: 7,
     title: "CampusFlow AI",
     category: "AI",
-    image: campusFlowImage,
+    image: "https://images.unsplash.com/photo-1593642634367-d91a135587b5?auto=format&fit=crop&q=80&w=800",
     description: "AI-powered automation system that extracts assignment details and deadlines from PDFs/images using OCR and NLP, with scheduled email reminders.",
     tech: ["GCP", "OCR/NLP", "Python", "Automation", "Email API"],
-    longDesc: "CampusFlow AI is an intelligent task management solution that automatically extracts assignment details and deadlines from uploaded PDFs, images, and screenshots using advanced OCR and NLP techniques. The system processes this data into structured JSON format, enabling automated task creation and tracking. Leveraging scheduled background jobs (cron), it sends timely email reminders for upcoming deadlines. Designed with cloud-ready architecture, it integrates Google Cloud services for scalable automation and future expansion.",
+    longDesc: "CampusFlow AI automates assignment tracking by extracting details and deadlines from PDFs and images using OCR and NLP. It converts this data into structured tasks and sends scheduled email reminders. Built with cloud-ready architecture, it integrates Google Cloud services for scalable automation.",
     github: "https://github.com/krystn1/campusflow-ai",
     live: "https://campusflow-ai-06.lovable.app/"
   }
