@@ -42,7 +42,7 @@ const allProjects = [
     id: 4,
     title: "Covid-19 Analysis",
     category: "Data",
-     image: "https://unsplash.com/photos/j2c7yf223Mk?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800",
     description: "Cleaned and analyzed a Covid-19 dataset and visualized relationships between countries and deaths.",
     tech: ["Python", "Matplotlib", "Pandas"],
     longDesc: "A data science project focused on cleaning real-world dirty data and extracting meaningful insights. Visualizations were created to show the correlation between different demographic factors and mortality rates."
@@ -70,7 +70,7 @@ const allProjects = [
     id: 7,
     title: "CampusFlow AI",
     category: "AI",
-    image: "https://images.unsplash.com/photo-1555448248-71d2a0b26dd2?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1516321314423-f06f85e504b3?auto=format&fit=crop&q=80&w=800",
     description: "AI-powered automation system that extracts assignment details and deadlines from PDFs/images using OCR and NLP, with scheduled email reminders.",
     tech: ["GCP", "OCR/NLP", "Python", "Automation", "Email API"],
     longDesc: "CampusFlow AI is an intelligent task management solution that automatically extracts assignment details and deadlines from uploaded PDFs, images, and screenshots using advanced OCR and NLP techniques. The system processes this data into structured JSON format, enabling automated task creation and tracking. Leveraging scheduled background jobs (cron), it sends timely email reminders for upcoming deadlines. Designed with cloud-ready architecture, it integrates Google Cloud services for scalable automation and future expansion.",
