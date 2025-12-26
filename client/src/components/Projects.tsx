@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github, Eye } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
+import campusFlowImage from "@assets/Screenshot_2025-12-26_at_7.00.06_AM_1766728849007.png";
 
 const allProjects = [
   {
@@ -70,7 +71,7 @@ const allProjects = [
     id: 7,
     title: "CampusFlow AI",
     category: "AI",
-    image: "https://images.unsplash.com/photo-1516321314423-f06f85e504b3?auto=format&fit=crop&q=80&w=800",
+    image: campusFlowImage,
     description: "AI-powered automation system that extracts assignment details and deadlines from PDFs/images using OCR and NLP, with scheduled email reminders.",
     tech: ["GCP", "OCR/NLP", "Python", "Automation", "Email API"],
     longDesc: "CampusFlow AI is an intelligent task management solution that automatically extracts assignment details and deadlines from uploaded PDFs, images, and screenshots using advanced OCR and NLP techniques. The system processes this data into structured JSON format, enabling automated task creation and tracking. Leveraging scheduled background jobs (cron), it sends timely email reminders for upcoming deadlines. Designed with cloud-ready architecture, it integrates Google Cloud services for scalable automation and future expansion.",
